@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="quizlogo.jpg">
+    <title>Quiz website</title>
+</head>
+
+<body>
+    <div id="note"><h3>Give test directly by using username:CSEquiz and password:CSE@2023 or create your account!</h3></div>
+    <div class="login-container">
+        <h2>Login to Quiz</h2>
+        <form id="loginForm">
+            <label for="username">Username: </label>
+            <input type="text" id="username" name="username" placeholder="Enter Username" required>
+            <label for="password">Password:</label>
+            <input type="text" id="password" name="password" placeholder="Enter Password" required>
+            <button type="button" onclick="login()">Sign In</button>
+            <br> <br>
+            <a href="register.html">Create for new account?</a>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
